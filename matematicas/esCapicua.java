@@ -7,7 +7,7 @@ public class esCapicua {
         
         System.out.print("Introduzca un número entero y te dire si es capicua o no: ");
         int x = sc.nextInt();
-        if (esCapicua(x)) {
+        if (capicua(x)) {
             System.out.println("El " + x + " es capicua.");
         } else {
             System.out.println("El " + x + " no es capicua.");
@@ -16,7 +16,7 @@ public class esCapicua {
 
         
     }
-    public static boolean esCapicua(int x) {
-        return esCapicua((int)x);
+    public static boolean capicua(int x) {
+        return capicua((int)x);
     }
 }
