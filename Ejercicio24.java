@@ -1,6 +1,6 @@
 import array.Array;
 
-public class Ejercicio21 {
+public class Ejercicio24 {
 
   public static void main(String[] args) {
     
